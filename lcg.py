@@ -1,22 +1,24 @@
-from math import floor
-from time import sleep
+from time import time
 
-bit_length = 32
-m = (2**31) - 1
+bit_length = 4096
+m = (2**bit_length)
 a = 16807
 c = 0
 
 def lcg():
   lcg.value = (a*lcg.value + c) % m
-  return lcg.value/m
+  return lcg.value
 
-def getRandIntBetween(max, min):
-  return floor(lcg() * (max - min + 1)) + min
+lcg.value = int(input("Enter a seed number: "))
 
-lcg.value = int(input("Enter a number to be seed: "))
-
-for i in range(10):
-  result = getRandIntBetween(2**bit_length - 1, 2**(bit_length - 1))
-  print(f'Random number: {result}')
-  print(f'Number of bits: {result.bit_length()}')
-  sleep(2)
+counter = 0
+startTime = time()
+while True:
+  result = lcg()
+  if (result.bit_length() >= bit_length):
+    print(result)
+    print(result.bit_length())
+    counter += 1
+  if (counter == 10):
+    break
+print(f"Time: {(time() - startTime) * 1000} ms")
