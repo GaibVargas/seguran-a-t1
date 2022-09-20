@@ -22,18 +22,14 @@ def powerMod(base, exp, mod): # Isso aqui deixa as coisas muito rápidas
 
 def fermat(n):
   if (n == 2):
-    return "Primo"
+    return True
 
   if (n < 2 or n % 2 == 0):
-    return "Composto"
+    return False
   
   for _ in range(10):
     a = randint(1, n - 2)
     aux = powerMod(a, n - 1, n)
     if (aux != 1):
-      return "Composto"
-  return "Provavelmente é primo"
-
-# 47362882341088596725068562696893704769436677460225591859092704246296157080253 pseudo-primo
-# 561 pseudo-primo
-print(fermat(97))
+      return False
+  return True

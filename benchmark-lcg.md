@@ -1,20 +1,6 @@
 # Tabelas de tempos
 
 ## LCG 40 bits
-| tentativa | tempo  |
-|-----------|--------|
-| 1         | 0,2909 |
-| 2         | 0,0575 |
-| 3         | 0,1240 |
-| 4         | 0,2160 |
-| 5         | 0,1490 |
-| 6         | 0,2859 |
-| 7         | 0,2246 |
-| 8         | 0,1752 |
-| 9         | 0,0527 |
-| 10        | 0,2162 |
-Média: 0,1792 ms
-
 LCG 40 bits (com contador para chegar a 10 aleatórios com 1 seed)
 | tentativa | tempo  |
 |-----------|--------|

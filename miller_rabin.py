@@ -28,25 +28,21 @@ def getOddPart(n):
 
 def miller_rabbin(n):
   if (n == 2):
-    return "Primo"
+    return True
 
   if (n < 2 or n % 2 == 0):
-    return "Composto"
+    return False
 
   a = randint(1, n - 1)
   m = getOddPart(n)
   b = powerMod(a, m, n)
 
   if (b % n == 1):
-    return "Provavelmente é primo"
+    return True
 
   for _ in range(10):
     if b % n == n - 1:
-      return "Provavelmente é primo"
+      return True
     else:
       b = (b*b) % n
-  return "Composto"
-
-# 47362882341088596725068562696893704769436677460225591859092704246296157080253 pseudo-primo
-# 561 pseudo-primo
-print(miller_rabbin(2))
+  return False
