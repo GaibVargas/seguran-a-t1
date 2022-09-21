@@ -1,15 +1,15 @@
 from time import time
 from lcg import lcg
-from miller_rabin import miller_rabbin
+from fermat import fermat
 
-bit_length = 4096
+bit_length = 224
 
 lcg.value = int(input("Enter a seed number: "))
 startTime = time()
 while True:
   number = lcg(2**bit_length)
   if (number.bit_length() >= bit_length):
-    is_prime_mr = miller_rabbin(number)
+    is_prime_mr = fermat(number)
     if (is_prime_mr):
       print(number)
       print(number.bit_length())
