@@ -2,7 +2,7 @@ from time import time
 from lcg import lcg
 from fermat import fermat
 
-bit_length = 224
+bit_length = 4096
 
 lcg.value = int(input("Enter a seed number: "))
 startTime = time()

@@ -1,7 +1,7 @@
 # Tabelas de tempos
 
-## LCG 40 bits
-LCG 40 bits (com contador para chegar a 10 aleatórios com 1 seed)
+## MWC 40 bits
+MWC 40 bits (com contador para chegar a 10 aleatórios com 1 seed)
 | tentativa | tempo  |
 |-----------|--------|
 | 1         | 1,3809 |
@@ -17,8 +17,8 @@ LCG 40 bits (com contador para chegar a 10 aleatórios com 1 seed)
 Média: 0,5898 ms
 Média por número: 0,05898 ms
 
-## LCG 56 bits
-LCG 56 bits (com contador para chegar a 10 aleatórios com 1 seed)
+## MWC 56 bits
+MWC 56 bits (com contador para chegar a 10 aleatórios com 1 seed)
 | tentativa | tempo  |
 |-----------|--------|
 | 1         | 0,7312 |
@@ -34,8 +34,8 @@ LCG 56 bits (com contador para chegar a 10 aleatórios com 1 seed)
 Média: 0,98792 ms
 Média por número: 0,098792 ms
 
-## LCG 80 bits
-LCG 80 bits (com contador para chegar a 10 aleatórios com 1 seed)
+## MWC 80 bits
+MWC 80 bits (com contador para chegar a 10 aleatórios com 1 seed)
 | tentativa | tempo  |
 |-----------|--------|
 | 1         | 0,1884 |
@@ -51,8 +51,8 @@ LCG 80 bits (com contador para chegar a 10 aleatórios com 1 seed)
 Média: 0,5589 ms
 Média por número: 0,05589 ms
 
-## LCG 128 bits
-LCG 128 bits (com contador para chegar a 10 aleatórios com 1 seed)
+## MWC 128 bits
+MWC 128 bits (com contador para chegar a 10 aleatórios com 1 seed)
 | tentativa | tempo  |
 |-----------|--------|
 | 1         | 0,9098 |
@@ -68,8 +68,8 @@ LCG 128 bits (com contador para chegar a 10 aleatórios com 1 seed)
 Média: 0,4808 ms
 Média por número: 0,04808 ms
 
-## LCG 168 bits
-LCG 168 bits (com contador para chegar a 10 aleatórios com 1 seed)
+## MWC 168 bits
+MWC 168 bits (com contador para chegar a 10 aleatórios com 1 seed)
 | tentativa | tempo  |
 |-----------|--------|
 | 1         | 0,8593 |
@@ -85,8 +85,8 @@ LCG 168 bits (com contador para chegar a 10 aleatórios com 1 seed)
 Média: 1,02969 ms
 Média por número: 0,102969 ms
 
-## LCG 224 bits
-LCG 224 bits (com contador para chegar a 10 aleatórios com 1 seed)
+## MWC 224 bits
+MWC 224 bits (com contador para chegar a 10 aleatórios com 1 seed)
 | tentativa | tempo  |
 |-----------|--------|
 | 1         | 0,2382 |
@@ -102,8 +102,8 @@ LCG 224 bits (com contador para chegar a 10 aleatórios com 1 seed)
 Média: 0,82208 ms
 Média por número: 0,082208 ms
 
-## LCG 256 bits
-LCG 256 bits (com contador para chegar a 10 aleatórios com 1 seed)
+## MWC 256 bits
+MWC 256 bits (com contador para chegar a 10 aleatórios com 1 seed)
 | tentativa | tempo  |
 |-----------|--------|
 | 1         | 0,8659 |
@@ -119,8 +119,8 @@ LCG 256 bits (com contador para chegar a 10 aleatórios com 1 seed)
 Média: 0,8872 ms
 Média por número: 0,08872 ms
 
-## LCG 512 bits
-LCG 512 bits (com contador para chegar a 10 aleatórios com 1 seed)
+## MWC 512 bits
+MWC 512 bits (com contador para chegar a 10 aleatórios com 1 seed)
 | tentativa | tempo  |
 |-----------|--------|
 | 1         | 1,2901 |
@@ -136,8 +136,8 @@ LCG 512 bits (com contador para chegar a 10 aleatórios com 1 seed)
 Média: 1,0668 ms
 Média por número: 0,10668 ms
 
-## LCG 1024 bits
-LCG 1024 bits (com contador para chegar a 10 aleatórios com 1 seed)
+## MWC 1024 bits
+MWC 1024 bits (com contador para chegar a 10 aleatórios com 1 seed)
 | tentativa | tempo  |
 |-----------|--------|
 | 1         | 2,0392 |
@@ -153,8 +153,8 @@ LCG 1024 bits (com contador para chegar a 10 aleatórios com 1 seed)
 Média: 1,9166 ms
 Média por número: 0,19166 ms
 
-## LCG 2048 bits
-LCG 2048 bits (com contador para chegar a 10 aleatórios com 1 seed)
+## MWC 2048 bits
+MWC 2048 bits (com contador para chegar a 10 aleatórios com 1 seed)
 | tentativa | tempo  |
 |-----------|--------|
 | 1         | 2,0578 |
@@ -170,8 +170,8 @@ LCG 2048 bits (com contador para chegar a 10 aleatórios com 1 seed)
 Média: 1,4683 ms
 Média por número: 0,14683 ms
 
-## LCG 4096 bits
-LCG 4096 bits (com contador para chegar a 10 aleatórios com 1 seed)
+## MWC 4096 bits
+MWC 4096 bits (com contador para chegar a 10 aleatórios com 1 seed)
 | tentativa | tempo  |
 |-----------|--------|
 | 1         | 1,3184 |
