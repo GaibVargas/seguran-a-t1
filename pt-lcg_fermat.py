@@ -9,8 +9,8 @@ startTime = time()
 while True:
   number = lcg(2**bit_length)
   if (number.bit_length() >= bit_length):
-    is_prime_mr = fermat(number)
-    if (is_prime_mr):
+    is_prime_fermat = fermat(number)
+    if (is_prime_fermat):
       print(number)
       print(number.bit_length())
       break

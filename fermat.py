@@ -1,7 +1,7 @@
 from random import randint
 
 # retorna (base^exp) % mod
-def powerMod(base, exp, mod): # Isso aqui deixa as coisas muito rápidas
+def powerMod(base, exp, mod): # Torna a operação de exponenciação mais rápida
   # Inicia o resultado
   result = 1
   base = base % mod
